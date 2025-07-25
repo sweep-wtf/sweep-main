@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "programs/sweep"
+]
+
+[profile.release]
+opt-level = "z"

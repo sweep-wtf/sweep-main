@@ -1,26 +1,21 @@
-```
+# Sweep Program
+
    ______      _____  ___  ____ 
   / ___/ | /| / / _ \/ _ \/ __ \
  (__  )| |/ |/ /  __/  __/ /_/ /
 /____/ |__/|__/\___/\___/ .___/ 
                        /_/
-```
-# sweep-main
 
-On-chain Solana program for Sweep. It:
-- detects and aggregates dust tokens
-- executes swaps or burns
-- records rewards for $SWEEP distribution
-- exposes program instructions for the SDK and frontend
+The **Sweep Program** is the on-chain Solana smart contract that powers **Sweep**, the wallet cleaning tool.
 
-## Stack
-- Solana
-- Anchor
-- Rust
+## Features
+- Detect and swap/burn dust tokens
+- Track $SWEEP rewards
+- Enable AI-powered reinvestments
 
-## Quick start
-
+## Quick Start
 ```bash
 anchor build
-anchor test
 anchor deploy
+anchor test
+```
