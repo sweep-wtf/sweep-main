@@ -5,7 +5,7 @@
 /____/ |__/|__/\___/\___/ .___/ 
                        /_/
 ```
-# sweep-program
+# sweep-main
 
 On-chain Solana program for Sweep. It:
 - detects and aggregates dust tokens
